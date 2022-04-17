@@ -1,0 +1,107 @@
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+	font: normal 18px, verdana,geneva,sans-serif, ;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.box-1{
+	background-color:#333;
+	color: #fff;
+
+	border:2px red solid;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.box-1 h1{ 
+    font-family: tahoma;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+ }
+.box-2{
+	padding: 20px;
+    border: 3px dotted #ccc;
+    margin: 20px 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:havor{ 
+	color: red;
+}
+a:active{
+	color: green;
+
+}
+a:visted{
+	black
+}
+.categories{
+	border: 2px #ccc solid;
+	padding: 20px;
+	border-radius: 15px;
+}
+.categories h2{
+	text-align: center;
+	text-transform: capitalize
+}
+.categories ul{
+    list-style: none;
+    text-transform: capitalize
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+}
+.come-on{
+	padding: 20px;
+}
+.form-group{
+	padding-bottom: 15px;
+}
+.come-on label{
+	display:block;
+}
+.come-on input[type="text"], .come-on textarea{
+	padding: 6px;
+	width: 100%;
+}
+.come-on input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px	15px;
+}
+.block{
+	    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 10px;
+    box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
